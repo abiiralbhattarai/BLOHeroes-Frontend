@@ -6,6 +6,7 @@ import Header from './components/header';
 import SideBar from './components/sidebar';
 import Empty from './pages/empty';
 import Staking from './pages/staking'
+import Coinflip from './pages/coinflip';
 
 import './assets/styles.scss'
 
@@ -20,7 +21,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/home" element={<Home/>}/>
           <Route path="/staking" element={<Staking/>} />
-          <Route path="/coinflip" element={<Empty/>}/>
+          <Route path="/coinflip" element={<Coinflip/>}/>
           <Route path="/dice" element={<Empty/>}/>
           <Route path="/tower" element={<Empty/>}/>
           <Route path="/roulette" element={<Empty/>}/>
